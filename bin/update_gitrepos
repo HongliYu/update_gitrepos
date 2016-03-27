@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "update_gitrepos"
+
+puts UpdateGitrepos.run(ARGV[0])
